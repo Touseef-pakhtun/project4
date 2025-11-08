@@ -1,0 +1,43 @@
+p{
+    font-size: 14px;
+}
+.container{
+    width: 35vw;
+    height: 85vh;
+    background-color: rgb(32, 33, 33);
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+}
+.image{
+    border-radius: 50%;
+    height: 18%;
+    width: 20%;
+    /* display:flex; */
+}
+body{
+    background-color: black;
+    /* width: 100vw;*/
+    height: 120vh;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(58, 59, 59);
+    color: white;
+    margin-bottom: 5px;
+}
+.attribution{
+    position: relative;;
+    top: 8%;
+    color: white;
+}
